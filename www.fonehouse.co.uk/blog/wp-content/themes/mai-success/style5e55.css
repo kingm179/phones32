@@ -1,0 +1,881 @@
+/**
+ * Theme Name:       Mai Success
+ * Theme URI:        https://bizbudding.com/products/mai-success-theme/
+ * Description:      Mai Success child theme for the Genesis Framework.
+ * Author:           BizBudding
+ * Author URI:       https://bizbudding.com/
+ * Version:          2.0.1
+ * Text Domain:      mai-success
+ * Template:         genesis
+ * Template Version: 3.3.2
+ * License:          GPL-2.0-or-later
+ * License URI:      http://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+ h1 {
+ 	font-size: 48px !important;
+ 	font-weight: 500;
+ }
+
+.entry-meta {
+	margin-bottom: 0px;
+}
+
+ .entry-time {
+	 font-family: 'Montserrat-Medium', 'Montserrat Medium', 'Montserrat', sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 13px;
+	 text-transform: uppercase;
+ }
+ /* BF - tmp because I can't seem to remove the damn thing! */
+ div.entry-meta-before-content {
+	 display: none;
+ }
+
+ footer a {
+	 color: #fff;
+ }
+
+ footer a:hover {
+    color: #2a68b5;
+}
+
+/*
+ .content-sidebar-wrap>.content>.entry>.entry-wrap>.entry-content:first-child>.alignfull:first-child {
+	 margin-top: 119px;
+ }
+ */
+
+ .content-sidebar-wrap>.content>.entry>.entry-wrap>.entry-content:first-child>.alignfull:first-child {
+	 margin-top: auto;
+ }
+
+ .subscribe-holder {
+	 visibility: hidden;
+ }
+
+ .acceptedPayment {
+	 margin-top: 10px;
+ }
+
+ .entry-title-single {
+	 margin-bottom: 5px;
+ }
+
+ .entry-meta-after-content {
+	 margin-bottom: 20px;
+ }
+
+/* BF - tmp */
+ .home .wp-block-cover {
+	 height: 400px;
+ }
+ header .navbar .navbar-nav input[type=search] {
+	 width: 45px;
+	 height: 41px;
+	 transition: width 0s;
+	 border-radius: 0;
+ }
+ /* BF - tmp END */
+
+@media (min-width: 1175px) {
+	.content {
+		width: 780px;
+	}
+	.single-post .content {
+		width: 780px;
+	}
+
+	/* .home .content-sidebar-wrap {
+		width: 1140px
+	} */
+}
+h2 {
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+h3.widget-title {
+	font-family: 'Montserrat-Bold', 'Montserrat Bold', 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 28px;
+	color: #4A545A;
+	border-bottom: 2px solid #ec008c;
+	padding-bottom: 15px;
+}
+.widget-wrap ul {
+	list-style: none;
+	margin-left: 0px;
+}
+.widget-wrap li {
+	border-bottom: 1px solid #ccc;
+  color: #2A68B5;
+	font-family: 'Montserrat-Medium', 'Montserrat Medium', 'Montserrat', sans-serif;
+	font-size: 20px;
+  font-weight: 500;
+	padding-top: 5px;
+  padding-bottom: 15px;
+	line-height: 1.3;
+}
+.widget-wrap li:last-child {
+	border-bottom: none;
+	padding-bottom: 0;
+}
+.widget-wrap a {
+	color: #2A68B5;
+	letter-spacing: -1px;
+  text-decoration: none;
+  background-color: transparent;
+}
+blockquote {
+	border-left: 5px solid #ec008c;
+	padding: 30px 80px 30px 40px;
+	font-family: 'Montserrat-MediumItalic', 'Montserrat Medium Italic', 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+	background-color: #f3f3f3;
+	margin-bottom: 40px;
+}
+blockquote h3, blockquote h2 {
+	margin-top: 0;
+	border-bottom: none;
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 0;
+}
+blockquote h3 i, blockquote h2 i {
+	display: block;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.entry-content span {
+	font-weight: 600 !important;
+}
+
+.wp-block-columns h3, .wp-block-columns p {
+	font-weight: 700;
+}
+
+.entry-content p > b {
+	font-size: 20px;
+}
+.widget-wrap .post-date {
+	display: block;
+	color: #4A545A;
+	font-family: 'Montserrat-Medium', 'Montserrat Medium', 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+.post-nav {
+	list-style: none;
+}
+.post-back {
+	float: left;
+}
+.post-forward {
+	float: right;
+}
+.post-nav a {
+	float: left;
+	padding: 50px;
+	background: #f3f3f3;
+}
+/* deal boxes */
+.wp-fonehouse-deals .deal-box {
+	margin-left: 0px !important;
+	margin-right: 20px !important;
+}
+.wp-fonehouse-deals .deal-box-list {
+	margin-left: 0px !important;
+}
+.wp-fonehouse-deals .deal-box-small {
+	margin-left: 0px !important;
+	margin-right: 25px !important;
+}
+.wp-fonehouse-deals .deal-box-small:last-child {
+	margin-right: 0px !important;
+}
+.wp-fonehouse-deals .deal-box-list div.network-logo {
+	margin-top: 0px;
+}
+/*
+.content-sidebar-wrap>.content>.entry>.entry-wrap>.entry-content:first-child>.alignfull:first-child {
+	margin-top: 0px;
+}
+
+.home .content-sidebar-wrap {
+	margin-top: 0px;
+}
+*/
+
+.metaslider {
+	margin-bottom: 30px;
+}
+
+@media (min-width: 1175px) {
+.content {
+    width: 100%;
+}
+}
+
+.network-panel {
+	background: #f3f3f3;
+  border-radius: 10px;
+	overflow: hidden;
+
+}
+
+.network-panel img {
+	padding: 15px;
+}
+
+.home .entry-wrap h3 {
+	font-weight: 700;
+	color: #4A545A;
+	margin-bottom: 10px;
+}
+.home .entry-image-link > img {
+	border-radius: 10px;
+}
+
+.home .home-promo-offer img {
+	border-radius: 10px;
+}
+
+.best-sellers-list {
+	list-style: none;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+.best-sellers-list .link-number {
+	text-align: center;
+	color: #333;
+	border-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+	background: #f3f3f3;
+	width: 12%;
+	display: inline-block;
+}
+.best-sellers-list .link-description {
+	font-family: 'Montserrat Bold', 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  color: #ED018C;
+  text-align: left;
+  width: 86%;
+  display: inline-block;
+  padding: 0px;
+  float: right;
+  height: 46px;
+}
+.best-sellers-list .link-description strong {
+  background: #f3f3f3;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	padding-top: 12px;
+	padding-left: 17px;
+	border-radius: 10px;
+}
+.entry .entry-title-link {
+	font-family: 'Montserrat Medium', 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 16px;
+	color: #2A68B5;
+}
+.tips-and-tricks-feature img {
+	border-radius: 10px;
+}
+.tips-and-tricks-header {
+	font-weight: 700;
+}
+/* .home .main-container.theme-light {
+	margin-bottom: 170px;
+} */
+@media (max-width: 767px) {
+	/* .home .main-container.theme-light {
+		margin-bottom: 70px;
+	} */
+	.navbar {
+		position: absolute;
+		width: 100%;
+	}
+}
+
+.main-container.theme-light {
+	z-index: 1;
+}
+.mobileSearchBar {
+	display: none !important;
+}
+.site-inner {
+	z-index: 0;
+}
+
+.navbar-toggler span {
+	display: none !important;
+}
+.navbar-toggler .top-bar {
+	height: 30px !important;
+	display:block !important;
+}
+.navbar-toggler .top-bar {
+	background-image: url(../../../../blog-temp/wp-content/uploads/2021/10/bars.html);
+	background-size: 30px 30px;
+	height: 30px !important;
+	width: 30px !important;
+	display:block !important;
+}
+.navbar-toggler .top-bar.expanded {
+	background-image: url(../../../../blog-temp/wp-content/uploads/2021/10/times.html);
+}
+.home .content-sidebar-wrap {
+	margin-top: 0px;
+  margin-bottom: -50px;
+}
+.navbar-toggler {
+	padding-top: 5px !important;
+	background-color: #fff !important;
+}
+.home .homepage-hero-cover .wp-block-cover__inner-container {
+	margin-top: 136px !important;
+}
+@media (max-width: 767px) {
+	.home .wp-block-cover__inner-container {
+		margin-top: 0px !important;
+	};
+	.deal-box-small {
+		width: 145px !important;
+	}
+	.wp-fonehouse-deals .deal-box-small {
+		margin-right: 10px !important;
+	}
+
+	.wp-fonehouse-deals .deal-box-small div.network-logo {
+	    left: 93px;
+	    margin-bottom: -40px;
+	    position: relative;
+	    top: 30px;
+	    width: 37px;
+	}
+
+}
+/*
+.genesis-skip-link {
+	display: none;
+}
+*/
+
+@media (max-width: 1140px) {
+	.wp-fonehouse-deals .deal-box-small {
+		width: 165px !important;
+	}
+	.wp-fonehouse-deals .deal-box-small div.network-logo {
+		left: 97px;
+	}
+}
+
+@media (min-width: 1000px) and (max-width: 1140px) {
+	.wp-fonehouse-deals .deal-box-small {
+		width: 145px !important;
+	}
+	.wp-fonehouse-deals .deal-box-small div.network-logo {
+		left: 97px;
+		width: 30px;
+	}
+	.wp-fonehouse-deals .deal-box-small .cost {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 1242px) {
+	.wp-fonehouse-deals .deal-box-small {
+		margin-left: 0px !important;
+		margin-right: 18px !important;
+	}
+}
+@media (max-width: 870px) {
+	.wp-fonehouse-deals .deal-box-small {
+		margin-left: 0px !important;
+		margin-right: 18px !important;
+	}
+}
+
+@media (max-width: 999px) {
+	.homepage-hero-cover h3 {
+		font-size: 28px !important;
+	}
+}
+
+
+@media (max-width: 599px) {
+	.homepage-hero-cover h3 {
+		font-size: 28px !important;
+	}
+
+	.homepage-hero-cover .wp-block-cover__inner-container {
+		margin-top: 0px !important;
+	}
+
+	.wp-fonehouse-deals .deal-box-small {
+		width: 208px !important;
+	}
+	.wp-fonehouse-deals .deal-box-small div.network-logo {
+		left: 105px;
+    width: 50px;
+	}
+
+}
+
+.nav-link {
+	word-break: keep-all;
+}
+
+.deal-box-list, .deal-box-small {
+	cursor: pointer;
+}
+.entry-content h2, .entry-content h2 > b {
+    font-size: 20px;
+}
+
+@media (max-width: 375px) {
+	.wp-fonehouse-deals .deal-box-small {
+		width: 160px !important;
+		height: 255px;
+	}
+	.wp-fonehouse-deals .deal-box-small div.network-logo {
+		left: 93px !important;
+	}
+	.wp-fonehouse-deals .deal-box-small .cost span {
+		font-size: 11px;
+	}
+	.wp-fonehouse-deals .upfront {
+		font-size: 13px;
+	}
+}
+
+@media (min-width: 376px) and (max-width: 475px) {
+	.wp-fonehouse-deals .deal-box-small {
+		width: 175px !important;
+	}
+	.wp-fonehouse-deals .deal-box-small div.network-logo {
+		left: 97px;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 707px) {
+	.wp-fonehouse-deals .deal-box-small {
+		width: 130px !important;
+	}
+	.wp-fonehouse-deals .handsetImage {
+		width: 90px;
+	}
+.wp-fonehouse-deals .deal-box-small .handsetLink {
+	font-size: 13px;
+}
+.wp-fonehouse-deals .deal-box-small .cost {
+	font-size: 15px;
+}
+	.wp-fonehouse-deals .deal-box-small div.network-logo {
+		left: 85px;
+		width: 30px;
+	}
+}
+.homepage-hero-cover {
+	overflow: hidden;
+}
+
+.wp-block-button__link.button {
+	font-weight: 700;
+}
+
+
+@media (min-width: 1140px) {
+
+.deal-box-small .cost {
+	font-size: 18px !important;
+}
+.wp-fonehouse-deals .deal-box-small .handsetLink {
+	margin-bottom: 5px;
+}
+
+}
+
+.deal-box-small .handsetTitle span {
+	font-weight: 700 !important;
+}
+
+.deal-box-list .handsetTitle {
+	margin-bottom: 4px;
+}
+
+.deal-box-list .cost {
+	margin-top: 4px;
+}
+
+.wp-fonehouse-deals .deal-box-list .cost span {
+	font-weight: 500;
+}
+.wp-fonehouse-deals .deal-box-list .data-small,
+.deal-box-list .upfront span {
+	font-weight: 500;
+}
+
+@media (min-width: 1125px) {
+
+	.network-panel {
+		min-height: 150px;
+		padding-top: 25px;
+
+	}
+}
+
+.entry-content ol {
+	margin-left: 15px;
+}
+
+.blog .entry-image-link img,
+.home .entry-image-link img {
+  height: 190px;
+}
+
+@media (max-width: 799px) {
+  .home .entry-image-link img {
+    height: auto;
+  }
+}
+
+.deal-box-list, .deal-box-small {
+	border: 2px solid #f2f2f2;
+}
+
+.deal-box-list:hover,
+.deal-box-small:hover {
+	border-color: #ED018C;
+}
+
+.archive .entry-more-link.button.button-small.button-secondary {
+	background: #eb1683;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.archive .entry-more-link.button.button-small.button-secondary:hover {
+	background: #bc1069;
+}
+.archive .entry-image-link img {
+	border-radius: 10px;
+}
+.category h2.entry-title {
+  margin-top:var(--spacing-xs);
+  margin-bottom:var(--spacing-xs);
+}
+
+::selection {
+  background-color: #2e6ab3 !important;
+}
+
+@media (min-width: 1000px) and (max-width: 1159px) {
+.home .wp-block-cover h3 {
+	font-size: 30px !important;
+}
+}
+
+.archive-pagination-prev-next-wrap a {
+	text-transform: uppercase;
+	font-weight: 700;
+	--button-background: #2e6ab3;
+	--button-background-hover: #24528a;
+}
+
+@media (max-width: 767px) {
+	.mobile-newsletter {
+		display: none !important;
+	}
+}
+
+
+
+
+/* latest */
+
+footer .newsletter {
+	display: none !important;
+}
+.online-status {
+	visibility: hidden;
+}
+.menu-item {
+  font-size: 13px;
+	display: block;
+}
+.menu-item h2 {
+	margin-top: 0px;
+	width: 100%;
+}
+.main-container header > a {
+	display: none !important;
+}
+.view-all-link {
+	font-size: 13px;
+	font-family: 'Montserrat Medium', 'Montserrat', sans-serif;
+	color: #ED018C;
+}
+/* .homepage-search-bar {
+	margin-top: 40px;
+} */
+.wp-block-search__button {
+	background: #ED018C !important;
+	width: 75px !important;
+	border-radius: 0 !important;
+	border-top-right-radius: 10px !important;
+	border-bottom-right-radius: 10px !important;
+}
+.nav-link.call {
+	visibility: hidden;
+}
+#wp-block-search__input-1 {
+	border: 1px solid #606060;
+}
+#wp-block-search__input-1::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #b2b2b2;
+  opacity: 1; /* Firefox */
+	font-size: 18px;
+	font-family: Montserrat, sans-serif;
+}
+.child-menu {
+	min-height: 650px;
+}
+.search-results .entry-more-link.button.button-small.button-secondary {
+	background: #eb1683;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.search-results .entry-more-link.button.button-small.button-secondary:hover {
+	background: #bc1069;
+}
+.search-results .entry-image-link img {
+	border-radius: 10px;
+}
+/* end */
+
+#menu-category-menu {
+	width: max-content;
+	margin: 15px auto;
+}
+
+#menu-category-menu li {
+	background: #2e6ab3;
+	border-left: 1px solid #fff;
+	margin-right: -1px;
+	width: 134px;
+}
+
+#menu-category-menu li:hover{
+	background: #24528A;
+}
+#menu-category-menu li a {
+  color: #fff;
+  font-weight: bold;
+}
+#menu-category-menu li:hover a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#menu-category-menu li a {
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
+	display: block;
+	-webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+#menu-category-menu li:first-child {
+	border-radius: 5px 0px 0px 5px;
+}
+#menu-category-menu li:last-child {
+	border-radius: 0px 5px 5px 0px;
+}
+
+@media (min-width: 1175px) {
+  .homepage-post-list img {
+    height: 190px;
+  }
+  .archive .entry-image-link img {
+    height: 190px;
+  }
+}
+.homepage-featured-image img {
+  border-radius: 10px;
+}
+h3.wp-block-post-title a {
+  font-weight: 500;
+  color: #2A68B5;
+  margin-top: 25px;
+}
+.entry-title a {
+  color: #4A545A;
+}
+.wp-block-post-template {
+  margin-left: 0px;
+}
+.wp-block-post-excerpt__excerpt {
+  margin-bottom: 25px;
+}
+/* .homepage-search-bar {
+  display: none;
+} */
+
+div.navigation {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+}
+/* .menu-category-menu-container {
+  margin-top: -25px;
+  margin-bottom: 0px;
+} */
+.homepage-pagination {
+  margin-top: -15px !important;
+  margin-bottom: 30px;
+}
+.entry-excerpt {
+  min-height: 95px;
+}
+.home .entry-excerpt {
+  min-height: auto;
+}
+
+.blog .entry-title {
+  margin-top: 10px;
+}
+
+.home h1 {
+  color: #333333;
+  font-weight: 600;
+}
+
+.archive-title,
+.archives-description {
+  text-align: center;
+}
+
+.archive h1,
+.blog h1 {
+  font-weight: 700;
+  margin-top: 25px;
+}
+/* .archive-title {
+  display: none;
+} */
+.archive-title.visible {
+  display: block;
+}
+.homepage-hero-cover .size-full {
+  text-align: right;
+}
+.home .content {
+  margin-top: 169px;
+}
+
+@media (max-width: 1175px) {
+  .home .content {
+    margin-top: 135px;
+  }
+}
+
+@media (max-width: 999px) {
+  .home .content {
+    margin-top: 200px;
+  }
+}
+@media (max-width: 767px) {
+  .home .content {
+    margin-top: 85px;
+  }
+}
+
+
+.home .after-header {
+  position: relative;
+  top: 430px;
+}
+
+.archive .type-post > .entry-image-link img {
+  height: auto;
+}
+
+.archive-description {
+  text-align: center;
+}
+.archive .menu-category-menu-container {
+  margin-top: -50px;
+}
+.home .menu-category-menu-container {
+  margin-top: -35px;
+}
+.archive .entry-time {
+  visibility: hidden;
+}
+
+.archive .entries-archive .entries-wrap article:first-child {
+	display: none;
+}
+
+.blog .wp-block-cover {
+  margin-top: -50px;
+}
+
+@media (max-width: 1200px) {
+  #menu-category-menu li {
+    width: 130px;
+  }
+}
+
+@media (max-width: 1100px) {
+  #menu-category-menu li a {
+    font-size: 11px;
+  }
+  #menu-category-menu li {
+    width: 110px;
+  }
+}
+
+@media (max-width: 950px) {
+  .menu-category-menu-container {
+    display: none;
+  }
+}
+
+.site-header {
+  background: none;
+  border: none;
+}
+
+header {
+  border: none;
+}
+@media (max-width: 1148px) {
+  .site-footer {
+    margin: 20px;
+  }
+}
+
+.home footer .content {
+  margin-top: 0px;
+}
+
+.home .wp-block-cover__inner-container {
+	margin-bottom: -15px;
+}

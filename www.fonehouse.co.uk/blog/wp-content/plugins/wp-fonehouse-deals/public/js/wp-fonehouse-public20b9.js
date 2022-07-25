@@ -1,0 +1,2 @@
+(function($){'use strict';var swapColourOption=function(){var t=$(this);var container=$(this).closest(".deal-box");var name=t.data("name");var purl=t.data("purl");var handsetImage=t.data("image");$(".handsetImage",container).attr('src',handsetImage);$(".view-deal",container).attr("href",purl);return false;}
+$(window).load(function(){$(".colourSwap").on("click",swapColourOption);});})(jQuery);
